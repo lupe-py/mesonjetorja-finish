@@ -1,0 +1,56 @@
+.demo-menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.title-menu-demo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#padde{
+    padding: 90px;
+}
+
+.menu-horr{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+
+
+.im3-horr>p{
+    max-width: 350px;
+}
+
+.menu-horrrrr{
+    display: flex;
+    grid-gap: 30px;
+}
+
+
+@media only screen and (max-width: 1277px) {
+#padde{
+    padding: 50px;
+}
+}
+
+@media only screen and (max-width: 999px) {
+   #toppp-img{margin-top: 30px;}
+   #toppp1-img{padding: 30px;}
+   #topp-img>img{width: 100%;}
+ }
+ 
+ @media only screen and (max-width: 720px){
+.about {
+    padding: 80px 0px 30px 0px;
+}
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/home.css"/>
+    <link rel="stylesheet" href="/css/about.css"/>
+    <link rel="stylesheet" href="/css/contact.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="/photos/logo-mes.png"/>
+    
+    <title>Contact</title>
+</head>
+<body>
+
+    <%- include('header') -%>
+
+    <div class="about">
+        <div class="home-column1">
+            <h5 id="color" class="lang lang-en">Any Query ?</h5>
+            <h5 id="color" class="lang lang-al">A Keni Ndonjë Pyetje?</h5>
+            <img src="/photos/separator 1.png" width="90"/>
+            <h1 class="lang lang-en">Contact Us</h1>
+              <h1 class="lang lang-al">Na Kontaktoni</h1>
+        </div>
+    </div>
+
+    <div class="map">
+
+
+    </div>
+
+    <div class="container-fluid" style="background-color: #130A00;">
+        <div class="row justify-content-around align-items-center pt-3"id="con1" >
+            
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="info-con11">
+                        <div class="info-con111">
+                            <h3 class="lang lang-en">Location</h3>
+                            <h3 class="lang lang-al">Lokacioni</h3>
+                        </div>
+                        <div class="info-con1111">
+                            <img src="/photos/Mask group.png"/>
+                            <a href = "https://goo.gl/maps/m2VMLnXVwcKxky8g7"> <p>Bulevardi Shen Gjergji</p> </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-10 col-lg-3">
+                    <div class="info-con11">
+                        <div class="info-con111">
+                            <h3 class="text-center">Contact Info</h3>
+                        </div>
+                        <div class="max-info">
+                            <div class="info-con1111">
+                                <img src="/photos/Mask group (2).png"/>
+                             <a href="https://wa.me/0692342333">  <p>0692342333</p> </a> 
+                            </div>
+                            <div class="info-con1111">
+                                <img src="/photos/Mask group (3).png"/>
+                                <a href = "mailto: restorantmesonjetorja.com">  <p>restorantmesonjetore
+                                    @gmail.com</p> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-10 col-lg-3">
+                    <div class="info-con11">
+                        <div class="info-con111">
+                            <h3 class="lang lang-en">Daily</h3>
+                            <h3 class="lang lang-al">Koha E Hapjes</h3>
+                        </div>
+                        <div class="info-con1111">
+                            <img src="/photos/Mask group (1).png"/>
+                            <p>8:00 am to 11:00 pm</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+      
+    </div>
+
+    <div class="container-fluid pt-5 pb-5 " style="background-color: #130A00;">
+        <div class="row justify-content-center  align-items-center " style="background-color: #201100;" id="demo">
+            <div class="col-12 col-md-10 col-lg-5 p-3" >
+                <h1 class="lang lang-en " id="boldd" >Message us</h1>
+                 <h1 class="lang lang-al" id="boldd">Na Shkruani</h1>
+                
+                <p style="color: #AAAAAA;" class="lang lang-en">Have a question about the our service? We're here to help, contact us today</p>
+                <p style="color: #AAAAAA;" class="lang lang-al">Keni një pyetje në lidhje me shërbimin tonë? Ne jemi këtu për të ndihmuar, na kontaktoni! </p>
+
+                <form action="/ad" method="post">
+                    <input type="name" name="name" placeholder="Name"  id="in-clon"/><br/><br/>
+                    
+
+                    <input type="email" name="email" placeholder="Email" id="in-clon"/><br/><br/>
+                    
+
+                    <input type="text" name="text"  class="" placeholder="Special Request"/><br/><br/>
+
+                    
+
+                    <button class="btn " style="background: #E3C48E; font-size: 15px; " type="submit" class="lang lang-en"  id="bc">Send Your Message</button>
+
+                   
+                </form>
+            </div>
+
+            <div class="col-12 col-md-10 col-lg-5" id="cont">
+                <img src="/photos/connn1.JPG" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+
+    <a href="https:/wa.me/0683837127"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+    <%- include('footer') -%>
+    
+
+    
+</body>
+</html>

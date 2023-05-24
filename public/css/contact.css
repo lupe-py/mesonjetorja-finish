@@ -1,0 +1,136 @@
+.home-column1{
+    width: 100%;
+    padding: 80px;
+    background-image: url('/photos/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 70%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    z-index: 99;
+    background-repeat: no-repeat;
+}
+
+#boldd{
+    color:white;
+    font-weight: bold;
+}
+
+#bc{
+    padding: 6px;
+    border: none;
+}
+
+#con1{
+    width: 80%;
+    margin: auto;
+    background-color: #130A00;
+    border:2px solid white;
+    margin-top: -90px;
+    z-index: 99999999999999999999999999999999999999;
+    position: relative;
+}
+
+.info-con11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.info-con111>h3{
+    color:white;
+    font-weight: bold;
+}
+
+.info-con1111{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.info-con1111>p{
+    color:rgb(233, 233, 233);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info-con1111>a>p{
+    color:rgb(233, 233, 233);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info-con1111>a{
+    text-decoration: none;
+}
+
+.info-con1111>a:hover{
+    text-decoration: none;
+}
+
+.info-con1111>a>p:hover{
+    color:rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+.info-con1111>img{
+    margin-top: -20px;
+}
+
+.max-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#in-clon{
+    width: 100%;
+    background: rgba(19, 10, 0, 0.3);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 14vh;
+    background: rgba(19, 10, 0, 0.3);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+#in-clon::placeholder{
+    color:#FFFFFFCC;
+}
+
+input[type="text"]::placeholder{
+    color:#FFFFFFCC;
+}
+
+#demo{
+    width: 90%;
+    margin: auto;
+    padding: 25px 15px 25px 15px;
+}
+
+@media only screen and (max-width: 995px) {
+    #cont{margin-top: 40px;}
+    #con1{display: none;}
+
+    #demo{width: 97%;}
+}
+
+
+@media only screen and (max-width: 675px) {
+  .home-column1{padding: 0px;}
+}
+

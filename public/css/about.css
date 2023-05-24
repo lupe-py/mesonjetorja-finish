@@ -1,0 +1,120 @@
+.about{
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    background-image: url('/photos/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 70%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    z-index: 99;
+}
+
+#rightt{
+    text-align: right;
+}
+
+.about-service{
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+
+
+#about-services-right{
+    text-align: right;
+}
+
+.strength{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    margin: auto;
+    width: 94%;
+    grid-gap: 20px;
+}
+
+.strength1{
+    height: 56vh;
+    background-image: url('/photos/music\ live1.png');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.strength2{
+    height: 56vh;
+    background-image: url('/photos/centerr.png');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.strength3{
+    height: 56vh;
+    background-image: url('/photos/menu\ tr.png');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.strength4{
+    height: 56vh;
+    background-image: url('/photos/raki\ about.png');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.str-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+    #rightt{text-align: left;}
+
+
+    #about-services-right{text-align: center;}
+
+    .about-service{display: flex;flex-direction: column;}
+
+    .about-box-title{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+    .about-box-title>p{max-width: 400px;text-align: center;}
+
+    #about-boxx{display: flex;justify-content: center;align-items: center; margin-top:20px;margin-bottom: 30px;}
+
+    #rightt{margin-top: 20px;}
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .strength2{margin-top: 0px;}
+    .strength4{margin-top: 0px;width: 100%;}
+
+    .about{padding: 80px 0px 30px 0px;}
+}
